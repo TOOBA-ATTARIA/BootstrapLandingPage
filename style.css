@@ -1,52 +1,42 @@
-body {
-  /* background-color: #003366; */
-  color: white;
-
-}
-
-:root {
-  --main-color: #08366A;
-  --btnColor: #397FE2;
-
-}
-
 * {
   padding: 0;
   margin: 0;
 }
 
-.hero {
+body {
+  color: white;
 
+}
+:root {
+  --main-color: #08366A;
+  --btnColor: #397FE2;
+
+}
+.hero {
   padding: 100px 0;
   box-sizing: border-box !important;
   overflow: hidden;
   background-color: var(--main-color) !important;
 
 }
-
 .navbar,
 .container1 {
-
   background-color: var(--main-color) !important;
 }
 
 .hero h1 {
   font-size: 3rem;
-  /* background-color: red; */
   font-weight: 700;
 }
 
 .btn-blue {
   background-color: var(--btnColor);
-  ;
   color: white;
   border: none;
 }
 
 .btn-blue:hover {
   background-color: var(--btnColor);
-  ;
-
 }
 
 .btn-yellow {
@@ -68,7 +58,6 @@ body {
 .section {
   padding: 80px 0;
   background-color: #fff;
-  /* background-color: yellow; */
 
 }
 
@@ -82,17 +71,12 @@ body {
   height: 200px;
   border-radius: 8px;
 }
-
-
 .center-icon {
-  /* background-color: red; */
   text-align: center;
 }
 
 .extension-section {
-  /* background-color: #003366; */
   background-color: var(--main-color) !important;
-  /* dark blue */
   color: white;
   padding: 100px 0;
 }
